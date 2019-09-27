@@ -1,0 +1,48 @@
+align item to centre - text-center
+The .img-thumbnail class shapes the image to a thumbnail:
+Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.
+Create responsive images by adding an .img-responsive class to the <img> tag. The image will then scale nicely to the parent element.
+The .img-responsive class applies display: block; and max-width: 100%; and height: auto;
+The .thumbnail class can be used to display an image gallery
+The .caption class adds proper padding and a dark grey color to text inside thumbnails.
+Click on the images to enlarge them.
+
+to break a column <div class="w-100"></div>
+ <!-- Force next columns to break to new line at md breakpoint and up -->
+                      <div class="w-100 d-none d-md-block"></div>
+
+to oderly arrange grid col
+order-first
+order-1
+order-2
+
+Vertical Alignment:-
+
+aligning columns vertically (apply below class to rows)
+align-items-start (at top of the div)
+align-items-center (at the centre)
+align-items-end ( at the bottom)
+
+align-self-start (similar to above but this is the case for cols. allpy these to cols)
+align-self-center
+align-self-end
+
+Horizontal Alignment:-
+
+below can be applied to rows showing how cols can be arranged.
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-around (equal spaces from both left and right)
+justify-content-between (items aliggned to both the ends if 2 else space between 2 items will be equal)
+
+no-gutters:-
+no-padding no-margin
+
+Offset classes:-
+Move columns to the right using .offset-md-* classes.
+These classes increase the left margin of a column by * columns. For example, .offset-md-4 moves .col-md-4 over four columns.
+
+to providemargin in bootstrap
+mr-(0-5)
+class="mr-3"
